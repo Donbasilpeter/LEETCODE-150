@@ -40,7 +40,7 @@ const execute = (problemCode) => {
     TestCases[problemMap[problemCode]].map((eachTestCases) => {
       const input = eachTestCases[0];
       const expectedOutput = eachTestCases[1];
-      const actualOutput = Solutions[problemMap[problemCode]](input);
+      const actualOutput = Solutions[problemMap[problemCode]](...input);
       if (actualOutput === expectedOutput) {
         console.log(
           chalk.green(`
