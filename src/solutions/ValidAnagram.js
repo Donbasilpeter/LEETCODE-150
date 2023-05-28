@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-const  Valid_Anagram = function (s, t) {
+const  ValidAnagram = function (s, t) {
   if (s.length != t.length) {
     return false;
   }
@@ -18,5 +18,5 @@ const  Valid_Anagram = function (s, t) {
   else return false;
 };
 
-export default Valid_Anagram;
+export default ValidAnagram;
 

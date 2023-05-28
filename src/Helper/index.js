@@ -1,5 +1,5 @@
 import * as Solutions from "../solutions/index.js";
-import * as TestCases from "../Test_Cases/index.js";
+import * as TestCases from "../TestCases/index.js";
 import readline from "readline";
 import chalk from "chalk";
 import problemMap from "./problemMap.js";

@@ -1,4 +1,4 @@
-const Two_Sum = [
+const TwoSum = [
   [
     [[2, 7, 11, 15], 9],
     [1, 0],
@@ -8,4 +8,4 @@ const Two_Sum = [
     [2, 1],
   ],
 ];
-export default Two_Sum;
+export default TwoSum;

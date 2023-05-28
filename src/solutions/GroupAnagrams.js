@@ -1,4 +1,4 @@
-var Group_Anagrams = function (strs) {
+var GroupAnagrams = function (strs) {
   const letters = [
     "a",
     "b",
@@ -50,4 +50,4 @@ var Group_Anagrams = function (strs) {
   return result;
 };
 
-export default Group_Anagrams;
+export default GroupAnagrams;

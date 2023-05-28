@@ -1,5 +1,5 @@
 
-var Top_K_Frequent_Elements = function(nums, k) {
+var TopKFrequentElements = function(nums, k) {
     let result = []
     let large = 0
     const hashMap = {};
@@ -24,4 +24,4 @@ var Top_K_Frequent_Elements = function(nums, k) {
     
 };
 
-export default Top_K_Frequent_Elements;
+export default TopKFrequentElements;

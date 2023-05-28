@@ -1,4 +1,4 @@
-const Top_K_Frequent_Elements = [
+const TopKFrequentElements = [
   [
     [[1, 1, 1, 2, 2, 3], 2],
     ['1', '2'],
@@ -9,4 +9,4 @@ const Top_K_Frequent_Elements = [
   ],
 
 ];
-export default Top_K_Frequent_Elements;
+export default TopKFrequentElements;

@@ -1,4 +1,4 @@
-const Two_Sum = function (nums, target) {
+const TwoSum = function (nums, target) {
   const mySet = new Set();
   let arr = [];
   for (let i = 0; i < nums.length; i++) {
@@ -12,4 +12,4 @@ const Two_Sum = function (nums, target) {
   return arr;
 };
 
-export default Two_Sum;
+export default TwoSum;

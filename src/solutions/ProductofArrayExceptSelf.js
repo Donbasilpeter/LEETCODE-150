@@ -1,4 +1,4 @@
-const Product_of_Array_Except_Self = function (nums) {
+const ProductofArrayExceptSelf = function (nums) {
 //with division
 //   let prod = 1;
 //   let result = [];
@@ -45,4 +45,4 @@ for (let i = nums.length-1; i >=0; i--) {
 return arr1
 };
 
-export default Product_of_Array_Except_Self;
+export default ProductofArrayExceptSelf;

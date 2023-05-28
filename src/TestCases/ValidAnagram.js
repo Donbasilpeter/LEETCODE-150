@@ -1,5 +1,5 @@
-const Valid_Anagram = [
+const ValidAnagram = [
   [["anagram", "nagaram"], true],
   [["rat", "car"], false],
 ];
-export default Valid_Anagram;
+export default ValidAnagram;

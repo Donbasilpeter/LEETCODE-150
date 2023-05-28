@@ -1,4 +1,4 @@
-const Group_Anagrams = [
+const GroupAnagrams = [
   [
     [["eat","tea","tan","ate","nat","bat"]],
     [["eat","tea","ate"],["tan","nat"],["bat"]],
@@ -8,4 +8,4 @@ const Group_Anagrams = [
     [[""]],
   ],
 ];
-export default Group_Anagrams;
+export default GroupAnagrams;
