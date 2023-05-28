@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "leetcode-150",
+  "version": "1.0.0",
+  "description": "for trying out the challenge leetcode 150",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Don Basil Peter",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0"
+  }
+}
