@@ -1,4 +1,4 @@
-const SudokuSolver = function (board) {
+const ValidSudoku = function (board) {
   let hash = new Set();
   let val = 0;
   for (let i = 0; i < 9; i++) {
@@ -42,4 +42,4 @@ const SudokuSolver = function (board) {
   return true;
 };
 
-export default SudokuSolver;
+export default ValidSudoku;

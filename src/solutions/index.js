@@ -4,7 +4,7 @@ import TwoSum from "./TwoSum.js";
 import GroupAnagrams from "./GroupAnagrams.js";
 import TopKFrequentElements from "./TopKFrequentElements.js";
 import ProductofArrayExceptSelf from "./ProductofArrayExceptSelf.js";
-import SudokuSolver from "./SudokuSolver.js";
+import ValidSudoku from "./ValidSudoku.js";
 
 export {
   ContainsDuplicate,
@@ -13,5 +13,5 @@ export {
   GroupAnagrams,
   TopKFrequentElements,
   ProductofArrayExceptSelf,
-  SudokuSolver,
+  ValidSudoku,
 };

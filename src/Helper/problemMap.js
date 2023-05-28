@@ -5,7 +5,7 @@ const problemMap = {
     4 : "GroupAnagrams",
     5 : "TopKFrequentElements",
     6 : "ProductofArrayExceptSelf",
-    7 : "SudokuSolver"
+    7 : "ValidSudoku"
 
   };
 
