@@ -1,6 +1,6 @@
 import chalk from "chalk";
-import * as Helper from "./Helper/index.js";
-import problemMap from "./Helper/problemMap.js";
+import * as Helper from "./src/Helper/index.js";
+import problemMap from "./src/Helper/problemMap.js";
 
 
 function askName() {
