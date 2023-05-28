@@ -41,7 +41,7 @@ const execute = (problemCode) => {
       const input = eachTestCases[0];
       const expectedOutput = eachTestCases[1];
       const actualOutput = Solutions[problemMap[problemCode]](...input);
-      if (actualOutput === expectedOutput) {
+      if (JSON.stringify(actualOutput) === JSON.stringify(expectedOutput) ) {
         console.log(
           chalk.green(`
     Test Case Passed: ${chalk.bold(input)}`)
