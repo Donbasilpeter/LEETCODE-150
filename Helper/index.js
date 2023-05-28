@@ -70,7 +70,8 @@ const listOptions = (problemMap) => {
   `;
   for (const key in problemMap) {
     result =
-      result + `  ${chalk.yellow(problemMap[key])} : ${chalk.cyan(key)} `;
+      result + `  ${chalk.yellow(problemMap[key])} : ${chalk.cyan(key)}
+  `;
   }
   return result;
 };
